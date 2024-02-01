@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUENTINHAS DO GRAU</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title"></h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold"><a href="#sobre-nos" class="nav-link"><i class="bi bi-house-door me-2"></i>Sobre Nós</a></li>
+                    <li class="nav-item fw-bold"><a href="#cardapio" class="nav-link"><i class="bi bi-card-text me-2"></i>Cardápio</a></li>
+                    <li class="nav-item fw-bold"><a href="#contato" class="nav-link"><i class="bi bi-chat-left-text me-2"></i>Fale conosco</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem em Tela Cheia</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        #imagem-container {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+        #imagem {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div id="imagem-container">
+        <img id="imagem" src="./images/slides/quentinhas.jpg" alt="Imagem em tela cheia">
+    </div>
+</body>
+</html>
+
+    
+    
+    
+                
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5"><img class="d-block w-100 rounded" src="./images/dono.jpg" alt="donos"></div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <section id="sobre-nos" class="section">
+                            <h2 class="section-title">Sobre <span class="text-colored">Nós</span></h2>
+                            <p>No Quentinhas do Grau, nossa missão é proporcionar refeições de alta qualidade, preparadas com ingredientes frescos, selecionados cuidadosamente e com o toque caseiro que você merece. Estamos comprometidos em oferecer uma alternativa saudável e saborosa para as suas refeições diárias, sem comprometer a praticidade e a comodidade do serviço de entrega.</p>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <section id="cardapio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nosso <span class="text-colored">Cardápio</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#almoco" class="nav-link text-colored fw-bold text-start active">Almoço</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jantar" class="nav-link text-colored fw-bold text-start">Jantar</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas" class="nav-link text-colored fw-bold text-start">Bebidas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="nav-link text-colored fw-bold text-start">Sobremesas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="almoco">
+
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/Almoço/parpada.png" alt="Parppadelle">
+                                        <h5 class="text-colored fw-bold mt-2">Parppadelle Artesanal com
+                                            Camarão - 
+                                            R$45,00</h5>
+                                        <p>Massa fresca, servida com camarões
+                                            salteados, molho rústico de tomate.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/Almoço/risoto.jpg" alt="Risoto1">
+                                        <h5 class="text-colored fw-bold mt-2">Risoto de Abóbora com
+                                            Escalopinho de Filé - R$45,00</h5>
+                                        <p>Risoto enriquecido com creme de abóbora finalizado com queijo parmesão e acompanhado de filé mignon regado com
+                                            redução de vinho.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/Almoço/feijoada-carioca-2.jpeg" alt="Feijoada">
+                                        <h5 class="text-colored fw-bold mt-2">Feijoada Carioca - R$80,00</h5>
+                                        <p>Feijão preto enriquecido com carnes bovinas,
+                                            suínas e embutidos, legumes cozidos no vapor,
+                                            arroz branco e torresmoito.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/Almoço/frangopure.png" alt="Frango">
+                                        <h5 class="text-colored fw-bold mt-2">Frango com Purê - R$20,00</h5>
+                                        <p>Frango grelhado servido com arroz branco,
+                                            brócolis e purê de batatas.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/Almoço/peixevapor.png" alt="Peixe">
+                                        <h5 class="text-colored fw-bold mt-2">Peixe no Vapor - 
+                                            R$38,00</h5>
+                                        <p>Peixe cozido no vapor servido com legumes
+                                            salteados e folhas de alface.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/Almoço/palmite.png" alt="Palmito">
+                                        <h5 class="text-colored fw-bold mt-2">Estrogonofe de Palmito - R$35,00</h5>
+                                        <p>Palmito grelhado enriquecido com molho de
+                                            tomate, creme de amendoim e grão de bico
+                                            servidos com arroz branco.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="jantar">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/Jantar/file.jpg"alt="jack">
+                                        <h5 class="text-colored fw-bold mt-2">Filé mignon com molho Jack Daniel's - R$90,00</h5>
+                                        <p>Filé alto e grelhado, reduzido em um molho de whisky Jack Daniels, coberto com cream cheese e crispy de parma.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/Jantar/penne.jpg" alt="penne">
+                                        <h5 class="text-colored fw-bold mt-2">Penne ao Funghi - R$65,00</h5>
+                                        <p>Deliciosa massa fresca e artesanal, feitas pelas mãos do nosso chef, recheada de camarão e coberto com nosso molho de grana padano.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/Jantar/rodelli.png" alt="Rondelli">
+                                        <h5 class="text-colored fw-bold mt-2">Rondelli - R$68,00</h5>
+                                        <p>Deliciosa massa fresca e artesanal, recheada de camarão e coberto com nosso molho de grana padano.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/Jantar/BANANA.jpeg" alt="banana">
+                                        <h5 class="text-colored fw-bold mt-2">Risoto de Banana da Terra - R$50,00</h5>
+                                        <p>Uma mistura perfeita de arroz cremoso, bananas maduras e queijo parmesão.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/Jantar/carneiro.jpeg" alt="carre">
+                                        <h5 class="text-colored fw-bold mt-2">Carré de Cordeiro - R$88,00 </h5>
+                                        <p>Costeletas de cordeiro grelhadas, com molho do assado. Acompanha mix legumes salteados.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/Jantar/receita-vinagrete-frutos-mar-camarao-polvo-lula-braca-bar-sp.webp" alt="Vinagrete">
+                                        <h5 class="text-colored fw-bold mt-2">Vinagrete de Frutos do Mar - R$50,00</h5>
+                                        <p>Mistura de camarão, mexilhão e lula. Todos pré-cozidos no azeite e vinagre, maçã, cebola roxa e toque de limão servido.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="bebidas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/bebidas/agua.webp" alt="agua">
+                                        <h5 class="text-colored fw-bold mt-2">Àgua sem Gás - R$2,00</h5>
+                
+                                    </div>
+                                
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/bebidas/Refrigerentes.jpg" alt="Nome da">
+                                        <h5 class="text-colored fw-bold mt-2">Refrigerante - R$5,00</h5>
+                                        <p>Disponíveis:
+                                            Coca-Cola,
+                                            Guaraná Antártica,
+                                            Fanta.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/bebidas/suco1.jpg" alt="Nome da">
+                                        <h5 class="text-colored fw-bold mt-2">Sucos (Consultar sabores do dia)</h5>
+                                        <p>Copo (350mL) - R$7,00</p>
+                                        <p>Jarra (1,5L) - R$15,00</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/bebidas/cerva.png" alt="Nome da">
+                                        <h5 class="text-colored fw-bold mt-2">Cerveja Heineken - R$11,50</h5>
+                                        <p>600mL</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/bebidas/vinho.jpeg" alt="Nome da">
+                                        <h5 class="text-colored fw-bold mt-2">Vinhos</h5>
+                                        <p>CONSULTAR TABELA DE PREÇOS VIA WHATSAPP!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/sobremesas/Petit.webp" alt="Doce">
+                                        <h5 class="text-colored fw-bold mt-2">Petit Gateau de Doce de Leite com Farofa Doce - R$16,00</h5>
+                                        <p>Petit gateau de doce de leite servido com sorvete de creme e farofa de castanha e amendoim.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/sobremesas/tarte.jpeg" alt="Doce">
+                                        <h5 class="text-colored fw-bold mt-2">Tarte Chocolatudo - R$10,00</h5>
+                                        <p>Massa frola de chocolate servida com creme de chocolate e calda de chocolate.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/sobremesas/banana-flambada.jpg" alt="Doce">
+                                        <h5 class="text-colored fw-bold mt-2">Sorvete de Coco Verde com  Banana Flambada - R$15,00</h5>
+                                        <p>Banana flambada com conhaque servida com redução de laranja e sorvete artesanal de coco verde.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100 rounded" src="./images/cardapio/sobremesas/receitas-de-brownie-com-sorvete.jpg" alt="Doce">
+                                        <h5 class="text-colored fw-bold mt-2">Brownie com Sorvete de Ninho - R$20,00</h5>
+                                        <p>Brownie de chocolate servido de ninho artesanal e calda de frutas vermelhas.</p>
+                                    </div>
+                                
+                                </div>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu email:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional):</label>
+                                <input type="tel" id="telefone" class="form-control" data-mask="(00) 00000-0000">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem:</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <p>Nos acompanhe nas redes sociais</p>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-3 me-3">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Teste Exemplo, nº123, Bairro Atalaia - Aracaju - SE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-secondary text-center text-white">
+            Criado por Igor Emanoel - 
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/igoremanoelf" target="_blank" class="text-white">Github</a>
+        </footer>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+    <!-- MÁSCARA DE FORMULÁRIO TELEFONE -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script>
+        $('#telefone').mask('(00) 00000-0000');
+    </script>
+</body>
+</html>
